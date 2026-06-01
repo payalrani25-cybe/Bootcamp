@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Student Idea Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="toastContainer"></div>
+
+    <header>
+        <img src="logo.png" alt="Logo" height="100px" width="200px">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html">Home</a>
+                <a href="#explore">Explore</a>
+                <button id="navAddBtn">+ Add Idea</button>
+            </div>
+        </nav>
+    </header>
+    <main class="hero">
+        <h1>Explore <span style="color: aqua;">Innovative Ideas</span></h1>
+        <p>Discover creative and unique ideas shared by people around the world.Get inspired, explore different categories,</p>
+        <p>and turn your imagination into reality by sharing your own innovative thoughts with others.</p>
+        <div id="btn">
+            <button id="startBtn">Get Started <span class="arrow">→</span></button>
+        </div>
+    </main>
+
+    <section id="explore" class="explore">
+        <h1 class="main-heading">Explore Ideas </h1>
+        <p class="subText"> Share your creativity with the world </p>
+
+        <div id="loader">
+            <div class="spinner"></div>
+        </div>
+
+        <form id="ideaForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="title" placeholder="Enter title" required>
+            <textarea id="description" placeholder="Enter description" required></textarea>
+            <input type="text" id="tags" placeholder="Html, CSS, JavaScript" required>
+
+            <select id="category">
+                <option>Technology</option>
+                <option>Business</option>
+                <option>Creativity</option>
+                <option>Health</option>
+                <option>Environment</option>
+            </select>
+
+            <button type="submit"> Add Idea </button>
+        </form>
+
+        <div id="container"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footerContent">
+            <div class="footerBox">
+                <h3 style="font-weight: 100;">About</h3>
+                <a href="index.html">Home</a>
+                <a href="#explore">Explore</a>
+            </div>
+
+            <div class="footerBox">
+                <h3>Social Links</h3>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/payal-rani-91994538a/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/payalrani25-cybe">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://x.com/RaniPayal70202">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footerBox">
+                <h3>Contact</h3>
+                <p>Email: payalrani@25navgurukul.org</p>
+                <p>Phone: +91 65654873671</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
