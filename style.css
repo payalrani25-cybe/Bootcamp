@@ -223,11 +223,6 @@ button:hover {
     transition: border-color 0.3s ease;
 }
 
-#ideaForm input:focus,
-#ideaForm textarea:focus,
-#ideaForm select:focus {
-    border-color: #2563eb;
-}
 
 #ideaForm button {
     padding: 12px;
@@ -237,6 +232,9 @@ button:hover {
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+#ideaForm button:hover{
+    background-color: #0b3b04;
 }
 
 #container {
